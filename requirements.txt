@@ -3,3 +3,4 @@ pandas
 xlrd
 openpyxl
 nba_api
+randomuser
