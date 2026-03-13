@@ -1,6 +1,6 @@
 import unittest
 
-from my_module import square,add
+from mymodule import square,add
 
 class TestMyModule(unittest.TestCase):
     def test_square(self):
