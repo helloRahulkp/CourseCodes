@@ -20,3 +20,6 @@ export FLASK_DEBUG=1'''
 
 # run flask app
 # flask run then go to localhost
+
+def index():
+    return {"message": "Hello world"}
