@@ -37,9 +37,12 @@ nba_api>=1.4.0           # Official NBA API wrapper for sports data
 # =============================================================================
 
 # PyTorch Framework
-torch>=2.0.0             # Deep learning tensor computation (CPU/CUDA)
-torchvision>=0.15.0      # Datasets, models, and transforms for computer vision
+torch>=2.0.0             # Core deep learning library; supports MPS for Apple Silicon GPU acceleration
+torchvision>=0.15.0      # Computer vision utilities (essential for loading/transforming BLIP images)
 
 # Hugging Face Ecosystem
-transformers>=4.30.0     # Pre-trained models (BERT, GPT, Llama, etc.)
-Pillow>=10.0.0           # Image processing and manipulation library
+transformers>=4.30.0     # Access to BLIP, BERT, and thousands of pre-trained SOTA models
+Pillow>=10.0.0           # Standard Python Imaging Library; required by Transformers for vision tasks
+
+# Web Interface
+gradio>=3.35.0           # Create a simple UI to upload images and see BLIP captions in your browser
